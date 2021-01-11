@@ -1,0 +1,21 @@
+.welcome {
+    margin: 20px 0;
+    padding: 30px;
+    border-radius: 5px;
+    border-left: 5px solid #2980b9;
+    background: rgba(238,238,238,.5);
+    &:nth-child(1) {
+        font-style: italic;
+        strong {
+            font-size: 25px;
+            font-weight: 700;
+        };
+        p {
+            font-size: 15px;
+            margin: 0;
+            line-height: 1.75;
+            color: #7b7b7b;
+
+        }
+    } 
+}
